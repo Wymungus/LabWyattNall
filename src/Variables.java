@@ -1,7 +1,4 @@
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hello world!");
-    }
+
     public class Variables
     {
         public static void main ( String[] args )
@@ -13,13 +10,31 @@ public class Main {
 //char boolean String
 //integer variables
             byte byteOne = 127;
-            System.out.println(&quot;/////////////////////////////////&quot;);
-            System.out.println(&quot;*Some Person 07/18/02*&quot;);
-            System.out.println(&quot;* *&quot;);
-            System.out.println(&quot;* integer types *&quot;);
-            System.out.println(&quot;* *&quot;);
-            System.out.println(&quot;*8 bit - byteOne = &quot;+byteOne+&quot;\t\t*&quot;);
+            short shortOne = -32123;
+            int intOne = 90877;
+            long longOne = 999999999;
+            float floatOne = 38.5678F;
+            double doubleOne = 923.234;
+            char charOne = 'A';
+            System.out.println("/////////////////////////////////");
+            System.out.println("*Wyatt Nall 07/18/02*");
+            System.out.println("* *");
+            System.out.println("* integer types *");
+            System.out.println("* *");
+            System.out.println("*8 bit - byteOne = "+byteOne+"\t\t*");
+            System.out.println("*16 bit - shortOne = "+shortOne+"\t\t*");
+            System.out.println("*32 bit - intOne = "+intOne+"\t\t*");
+            System.out.println("*64 bit - longOne = "+longOne+"\t\t*");
+            System.out.println("* *");
+            System.out.println("* real types *");
+            System.out.println("* *");
+            System.out.println("*32 bit - floatOne = "+floatOne+"\t\t*");
+            System.out.println("*64 bit - doubleOne = "+doubleOne+"\t\t*");
+            System.out.println("* *");
+            System.out.println("* other integer types *");
+            System.out.println("* *");
+
         }
     }
 
-}
+
